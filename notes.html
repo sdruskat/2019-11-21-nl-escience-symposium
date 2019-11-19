@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>notes</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="symp.-digital-challenges-in-open-science" class="slide level1">
+<h1>Symp.: Digital Challenges in Open Science</h1>
+<ul>
+<li>Open Science = Open Software</li>
+<li>Open Science = Open Citations</li>
+</ul>
+<h2 id="challenges-in-applying-the-fair-principles-to-software">Challenges in applying the FAIR principles to software</h2>
+<h2 id="blurb">Blurb</h2>
+<pre><code>What software-related challenges exist in the transition towards Open Science? And how can research software help to expedite this process?
+
+The FAIR (Findable, Accessible, Interoperable, Re-usable) guiding principles were originally defined for data, but the same general principles could also be applied to research software. </code></pre>
+<ul>
+<li><p>But how to these principles help to make research software FAIR?</p></li>
+<li><p>What problems will be solved by applying these principles to software?</p></li>
+<li><p>highlight the role that research software plays in the scientific process</p></li>
+<li><p>stimulate discussion on the topic of FAIR Software and the conditions for making research software FAIR.</p></li>
+</ul>
+<h3 id="challenges-dan">Challenges (Dan):</h3>
+<ul>
+<li>Citability</li>
+<li>Availability</li>
+<li>Quality</li>
+</ul>
+</section>
+<section id="requirements" class="slide level1">
+<h1>REQUIREMENTS</h1>
+<ul>
+<li>citation file format,</li>
+<li>software sustainability</li>
+<li>what can we do as RSEs?</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p>Digital Challenges in Open Science 21 November -</p>
+<p>Session 1 - FAIR Software</p>
+<p>Summary What software-related challenges exist in the transition towards Open Science? And how can research software help to expedite this process?</p>
+<p>The FAIR (Findable, Accessible, Interoperable, Re-usable) guiding principles were originally defined for data, but the same general principles could also be applied to research software. But how to these principles help to make research software FAIR? What problems will be solved by applying these principles to software? This session will feature talks that highlight the role that research software plays in the scientific process and will stimulate discussion on the topic of FAIR Software and the conditions for making research software FAIR.</p>
+<p>Speakers Tomas Knapen (VU University Amsterdam) Anna-Lena Lamprecht (Utrecht University) Stephan Druskat (Humboldt-Universität zu Berlin) Pablo Rodríguez-Sánchez (Netherlands eScience Center)</p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/math/math.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
