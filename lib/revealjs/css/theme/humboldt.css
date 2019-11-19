@@ -282,6 +282,16 @@ body {
   box-shadow: none; }
 .reveal h1.title {
   padding-right: 150px; }
+.reveal div.realsubtitle {
+  line-height: 1em;
+  margin-right: 150px;
+  font-size: 1.26em;
+  background-color: darkgray;
+  color: white;
+  padding-left: 10pt;
+  padding-top: 10pt;
+  padding-bottom: 5pt;
+  margin-top: -20px; }
 .reveal h1 {
   # color: #00572c !important; }
 .reveal h2 {

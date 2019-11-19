@@ -73,6 +73,18 @@ section.has-dark-background {
 		padding-right: 150px;
 	}
 
+	div.realsubtitle {
+		line-height: 1em;
+		margin-right: 150px;
+		font-size: (1.8em / 100) * 70;
+		background-color: darkgray;
+		color: white;
+		padding-left: 10pt;
+		padding-top: 10pt;
+		padding-bottom: 5pt;
+		margin-top: -20px;
+	}
+
 	h1 {
 		# color: $HuGreen !important;
 	}

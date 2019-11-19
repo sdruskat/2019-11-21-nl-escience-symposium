@@ -67,6 +67,9 @@ $endfor$
 $if(title)$
 <section id="$idprefix$title-slide">
   <h1 class="title">$title$</h1>
+$if(realsubtitle)$
+  <div class="realsubtitle">$realsubtitle$</div>
+$endif$
 $if(subtitle)$
   <p class="subtitle">$subtitle$</p>
 $endif$
