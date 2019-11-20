@@ -193,7 +193,7 @@ So take citation! -->
 
 ![](image/rse.png)
 
-## Thanks!
+## Thanks! {style="text-align: center;"}
 
 ::: {.center}
 
