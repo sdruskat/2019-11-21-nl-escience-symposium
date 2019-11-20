@@ -3,7 +3,7 @@ title:  '**Dare to be mair than just FAIR!**'
 realsubtitle: 'FAIR PLAY to research software,<br/>courtesy of RSEs'
 subtitle: 'FAIR Software @ National eScience Symposium 2019,<br/>Johan Cruijff ArenA, Amsterdam, 2019-11-21'
 author: 
-    - '<em>Stephan Druskat</em>  |  <img src="image/orcid.png" style="margin: 0;"> <a href="https://orcid.org/0000-0003-4925-7248">https://orcid.org/0000-0003-4925-7248</a><br/><span class="small">(German Aerospace Center (DLR), Friedrich Schiller University Jena,<br/>Humboldt-Universität zu Berlin)<br/></span><img src="image/cc-by.png"><br/><span class="small">menti.com 71 20 99​</span>'
+    - '<em>Stephan Druskat</em>  |  <img src="image/orcid.png" style="margin: 0;"> <a href="https://orcid.org/0000-0003-4925-7248">https://orcid.org/0000-0003-4925-7248</a><br/><span class="small">(German Aerospace Center (DLR), Friedrich Schiller University Jena,<br/>Humboldt-Universität zu Berlin, SSI Special Collaborator)<br/></span><img src="image/cc-by.png"><br/><span class="small">menti.com 71 20 99​</span>'
 theme: 'humboldt'
 center: 'false'
 slideNumber: 'true'
@@ -22,8 +22,6 @@ aspectratio: 169
 
 ## FAIR \<insert digital artifact class here\><br/>BETTER RESEARCH
 
-[TODO: Reproducibility, etc.?]
-
 . . .
 
 ::: {.large}
@@ -36,7 +34,10 @@ aspectratio: 169
 
 ::: {.large}
 
-- FAIR doesn't obstruct Open Science (unlike Elsevier) [TODO: impede] 
+- FAIR doesn't obstruct Open Science  
+(unlike some publishers)
+
+<img src="image/else.gif" style="width: 100px; margin-left: 80px;">
 
 :::
 
@@ -60,13 +61,14 @@ aspectratio: 169
 ## FAIR, the brand
 
 :::::::::::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="55%"}
 
-- Visibility for software sustainability concerns
-- Policy changes create leverage (FAI**RSE** anyone?)
+- We, the research software community, can make use of the brand, e.g.,
+    - Policy changes create leverage (FAI**RSE** anyone?)
+    - Visibility for software sustainability concerns
 
 :::
-::: {.column width="50%"}
+::: {.column width="40%"}
 
 <img src="image/kodex.png" style="width: 40%;">
 
@@ -75,7 +77,7 @@ aspectratio: 169
 
 # Is FAIR enough?
 
-## Dan Katz sez no! [@blog], [@slides]
+## Probably not! [@blog], [@slides], [@ds]
 
 . . .
 
@@ -125,9 +127,14 @@ FAIR PLAY Software is ...
 
 ## RSEs be FAIR to the world
 
-- Publicly funded research products (software) is for the public! [TODO link public money public code]
-- Permissive open source licensing
-- Publish your software proactively, and sustainably (Software Heritage)
+- Publicly funded research products (software) [belong to the public](https://publiccode.eu/)
+- Use (permissive) open source licensing
+- Publish your software proactively
+- Archive your software sustainably ([Software Heritage](https://www.softwareheritage.org/))
+
+::: {.center}
+<img src="image/pmpc.jpg" style="height:200px;"> <img src="image/osi.png" style="height:200px;"> <img src="image/swh.png" style="height:200px;">
+:::
 
 ## RSEs be FAIR to others
 
@@ -144,7 +151,7 @@ FAIR PLAY Software is ...
 - Cite software that you use
 - ... in your papers and your software
 
-## "Haud on a buckin' minute here, Joe!<br/>Have ye noticed somethin?"
+## "Haud on a b\*\*\*in' minute here, Joe!<br/>Have ye noticed somethin?"
 
 ::: {.center}
 
@@ -152,11 +159,17 @@ FAIR PLAY Software is ...
 
 :::
 
-- Do you wanna make me do all the hard metadata work then?
+## "Haud on a b\*\*\*in' minute here, Joe!<br/>Have ye noticed somethin?"
 
-[TODO Burnistoun]
+::: {.large}
 
-Yea! But that's already what you should be doing according to good scientific principles.
+**Q:** So **I** am supposed to do all the hard and tedious metadata work then?
+
+**A:** Yes. (But we are trying to make it simpler.)
+
+:::
+
+<!--Yea! But that's already what you should be doing according to good scientific principles.
 As RSEs, we cannot pick the carrot and discard the stick, we're also obliged to stick to them,
 we have all the advantages of interesting work with a high degree of freedom on avaerage,
 but we also need to accept the disadvantages that come with it, i.e., academic rigour!
@@ -164,7 +177,7 @@ but we also need to accept the disadvantages that come with it, i.e., academic r
 But we promsie to make it simpler.
 Quality is your main concern anyway, right?
 Accessibility as open source is your practice already, right?
-So take citation!
+So take citation! -->
 
 # Case study: cite & make citable [TODO]
 
@@ -172,15 +185,13 @@ So take citation!
 
 # Conclusion
 
-## <s>FAIR Software</s> Practice of FAIR PLAY
+## FAIR Software {data-transition="slide-in none-out"}
 
 ![](image/FAIRy.png)
 
-## <s>FAIR Software</s> Practice of FAIR PLAY
+## FAIR Software + practice of FAIR PLAY {data-transition="none-in slide-out"}
 
 ![](image/rse.png)
-
-{data-transition="slide-in none-out"}
 
 ## Thanks!
 
@@ -198,4 +209,26 @@ Slides: [doi:10.6084/m9.figshare.10296917](https://doi.org/10.6084/m9.figshare.1
 
 # Appendix
 
-## References 
+## Image credits
+
+::: {.small}
+
+- DFG Kodex cover, assumed copyright by [Deutsche Forschungsgemeinschaft](https://www.dfg.de/en/research_funding/principles_dfg_funding/good_scientific_practice/index.html) (under fair use)
+- Burnistoun animated GIF from [BuzzFeed](https://img.buzzfeed.com/buzzfeed-static/static/2017-07/25/10/asset/buzzfeed-prod-fastlane-01/anigif_sub-buzz-28377-1500993996-1_preview.gif?downsize=800:*&output-format=auto&output-quality=auto), assumed copyright by BBC (under fair use)
+- Elsevier logo in the public domain <img src="https://licensebuttons.net/p/80x15.png" style="margin: 0;">
+- Public Money Public Code logo by Free Software Foundation Europe <img src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" style="margin: 0;">
+- Software Heritage logo by
+- The Open Source Initiative Keyhole Logo by The Open Source Initiative <img src="https://licensebuttons.net/l/by/2.5/80x15.png" style="margin: 0;">
+
+:::
+
+### FAIRy "art" - use at your own risk
+
+::: {.small}
+
+- FAIRy by me <img src="https://licensebuttons.net/l/zero/1.0/80x15.png" style="margin: 0;">
+- FAIR PLAIry also by me <img src="https://licensebuttons.net/l/zero/1.0/80x15.png" style="margin: 0;">
+
+:::
+
+## References [TODO]
