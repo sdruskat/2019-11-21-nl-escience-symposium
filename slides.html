@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="Stephan Druskat |  https://orcid.org/0000-0003-4925-7248 (German Aerospace Center (DLR), Friedrich Schiller University Jena, Humboldt-Universität zu Berlin, SSI Special Collaborator)  menti.com 71 20 99​">
+  <meta name="author" content="Stephan Druskat |  https://orcid.org/0000-0003-4925-7248 (German Aerospace Center (DLR), Friedrich Schiller University Jena, Humboldt-Universität zu Berlin, SSI Special Collaborator, Board member de-RSE e.V.)  menti.com 71 20 99​">
   <title>Dare to be mair than just FAIR!</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -14,6 +14,69 @@
       span.smallcaps{font-variant: small-caps;}
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="lib/revealjs//css/theme/humboldt.css" id="theme">
   <!-- Printing and PDF exports -->
@@ -36,7 +99,7 @@
   <h1 class="title"><strong>Dare to be mair than just FAIR!</strong></h1>
   <div class="realsubtitle">FAIR PLAY to research software,<br/>courtesy of RSEs</div>
   <p class="subtitle">FAIR Software @ National eScience Symposium 2019,<br/>Johan Cruijff ArenA, Amsterdam, 2019-11-21</p>
-  <p class="author"><em>Stephan Druskat</em> | <img src="image/orcid.png" style="margin: 0;"> <a href="https://orcid.org/0000-0003-4925-7248">https://orcid.org/0000-0003-4925-7248</a><br/><span class="small">(German Aerospace Center (DLR), Friedrich Schiller University Jena,<br/>Humboldt-Universität zu Berlin, SSI Special Collaborator)<br/></span><img src="image/cc-by.png"><br/><span class="small">menti.com 71 20 99​</span></p>
+  <p class="author"><em>Stephan Druskat</em> | <img src="image/orcid.png" style="margin: 0;"> <a href="https://orcid.org/0000-0003-4925-7248">https://orcid.org/0000-0003-4925-7248</a><br/><span class="small">(German Aerospace Center (DLR), Friedrich Schiller University Jena,<br/>Humboldt-Universität zu Berlin, SSI Special Collaborator, Board member de-RSE e.V.)<br/></span><img src="image/cc-by.png"><br/><span class="small">menti.com 71 20 99​</span></p>
 </section>
 
 <section id="is-fair-software-fair-enough" class="title-slide slide level1"><h1>Is FAIR software fair enough?</h1></section>
@@ -77,10 +140,10 @@
 <div class="columns">
 <div class="column" style="width:55%;">
 <ul>
-<li>We, the research software community, can make use of the brand, e.g.,
+<li>We, the research software community, can make use of the brand, e.g.:
 <ul>
-<li>Policy changes create leverage (FAI<strong>RSE</strong> anyone?)</li>
-<li>Visibility for software sustainability concerns</li>
+<li>Policy changes create leverage (FAI<strong>RSE</strong>?)</li>
+<li>May increase visibility for software sustainability concerns</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:40%;">
@@ -88,37 +151,43 @@
 </div>
 </div>
 </section></section>
-<section><section id="is-fair-enough" class="title-slide slide level1"><h1>Is FAIR enough?</h1></section><section id="probably-not-blog-slides-ds" class="slide level2">
-<h2>Probably not! <span class="citation" data-cites="blog">[1]</span>, <span class="citation" data-cites="slides">[2]</span>, <span class="citation" data-cites="ds"><span class="citeproc-not-found" data-reference-id="ds"><strong>???</strong></span></span></h2>
+<section><section id="is-fair-enough" class="title-slide slide level1"><h1>Is FAIR enough?</h1></section><section id="probably-not-katzfairnotfair2017-daniels.katzfairnotfair2018-lamprechtfairprinciplesresearch2019" class="slide level2">
+<h2>Probably not! <span class="citation" data-cites="katzFAIRNotFair2017">[1]</span>, <span class="citation" data-cites="daniels.katzFAIRNotFair2018">[2]</span>, <span class="citation" data-cites="lamprechtFAIRPrinciplesResearch2019">[3]</span></h2>
 <div class="fragment">
 <div class="center large">
-<p>FAIR != OPEN [TODO: From Dan’s blog]</p>
-</div>
-</div>
-<div class="fragment">
-<div class="center large">
-<p>FAIR != CREDIT [There’s no fair trade in FAIR, explain]</p>
+<p><br/></p>
+<p>FAIR != OPEN</p>
 </div>
 </div>
 <div class="fragment">
 <div class="center large">
-<p>FAIR != GOOD [Quality TODO, concerns the functionality fo software, not the form (covered by FAIR)]</p>
+<p>FAIR != CREDIT</p>
 </div>
 </div>
-</section><section id="perhaps-we-dont-need-fair-for-software-but-rather-rules-of-fair-play" class="slide level2">
-<h2>Perhaps we don’t need “FAIR” for software, but rather rules of FAIR PLAY!</h2>
-<p>[TODO: Instead of trying to squeeze software into FAIR, we should extend FAIR to cover software]</p>
+<div class="fragment">
+<div class="center large">
+<p>FAIR != GOOD</p>
+</div>
+<aside class="notes">
+<p>FAIR != OPEN [TODO: From Dan’s blog] FAIR != CREDIT [There’s no fair trade in FAIR, explain] FAIR != GOOD [Quality TODO, concerns the functionality fo software, not the form (covered by FAIR)]</p>
+</aside>
+</div>
+</section><section id="perhaps-we-dont-need-fair-software-but-rather-rules-of-fair-play-for-software" class="slide level2">
+<h2>Perhaps we don’t need FAIR Software, but rather rules of FAIR PLAY for software!</h2>
 <div class="large center">
 <p>FAIR PLAY?<br/><span style="color:lightgray; font-size: 70%;">(I’m sure there’s a backronym in there somewhere)</span></p>
 </div>
 <div class="fragment">
 <div class="large">
 <p>FAIR PLAY Software is …</p>
-<p><strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, <strong>R</strong>eusable,<span class="fragment"><br/>and <strong>P</strong>er default open source,</span> <span class="fragment">therefore <strong>L</strong>iterally accessible,</span> <span class="fragment"><strong>A</strong>ttributing contributions for credit,</span> <span class="fragment">and of high qualit<strong>Y</strong>!</span></p>
+<p><strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, <strong>R</strong>eusable,<span class="fragment"><br/>and <strong>P</strong>er default open source,</span> <span class="fragment">therefore <em><strong>L</strong>iterally</em> accessible,</span> <span class="fragment"><strong>A</strong>ttributing contributions for credit,</span> <span class="fragment">and of adequate qualit<strong>Y</strong>!</span></p>
 </div>
+<aside class="notes">
+<p>[TODO: Instead of trying to squeeze software into FAIR, we should extend FAIR to cover software]</p>
+</aside>
 </div>
 </section></section>
-<section><section id="fair-play-rseng-todo" class="title-slide slide level1"><h1>FAIR PLAY == RSEng! [TODO]</h1></section><section id="rses-be-fair-to-the-world" class="slide level2">
+<section><section id="fair-play-fair-rseng" class="title-slide slide level1"><h1>FAIR PLAY == FAIR + RSEng</h1></section><section id="rses-be-fair-to-the-world" class="slide level2">
 <h2>RSEs be FAIR to the world</h2>
 <ul>
 <li>Publicly funded research products (software) <a href="https://publiccode.eu/">belong to the public</a></li>
@@ -132,21 +201,41 @@
 </section><section id="rses-be-fair-to-others" class="slide level2">
 <h2>RSEs be FAIR to others</h2>
 <ul>
-<li>Try to ensure that your software is of “high quality”, so that other researchers can trust it.</li>
-<li>How to judge software quality (internal metrics, peer review, usage)</li>
-<li>Best practices: tests, docs, code review, etc.</li>
+<li>Do your best to ensure that your software is of “adequate quality”, so that downstream users can:
+<ol type="1">
+<li>understand it,</li>
+<li>use it,</li>
+<li>trust it.</li>
+</ol></li>
+<li>How do we measure software quality?<br />
+(Internal) metrics? Peer review? Usage?</li>
+<li>Best practices: VCS, CI, tests, documentation, code review, etc.</li>
 </ul>
+<aside class="notes">
+<h3 id="adequate-costly-software-should-be-of-high-quality-modularized-etc.">- “Adequate”: costly software should be of high quality, modularized, etc.</h3>
+<h3 id="scripts-may-not-need-docs-but-need-to-be-citable-when-used-in-research-reproducibility">- Scripts may not need docs, but need to be citable when used in research (reproducibility)</h3>
+<h3 id="software-quality-measurement-should-be-answered-in-software-engineering">- Software quality measurement should be answered in Software Engineering</h3>
+</aside>
 </section><section id="rses-be-fair-to-themselves" class="slide level2">
 <h2>RSEs be FAIR to themselves</h2>
+<div class="large">
 <ul>
-<li>Make your software citable (A in play)</li>
+<li>Make your software citable (“A” in “PLAY”)</li>
+<li>Provide citation metadata</li>
 </ul>
+</div>
 </section><section id="okay-also-be-fair-to-others-again" class="slide level2">
-<h2>Okay, also be FAIR to others again</h2>
+<h2>Okay, also be FAIR to others (again)</h2>
+<div class="large">
 <ul>
 <li>Cite software that you use</li>
-<li>… in your papers and your software</li>
+<li>Do so both in your papers and in your software</li>
 </ul>
+</div>
+<aside class="notes">
+<h3 id="cite-software-from-software-via-metadata">- Cite software from software via metadata</h3>
+<h2 id="burnistoun">Burnistoun?</h2>
+</aside>
 </section><section id="haud-on-a-bin-minute-here-joe-have-ye-noticed-somethin" class="slide level2">
 <h2>“Haud on a b***in’ minute here, Joe!<br/>Have ye noticed somethin?”</h2>
 <div class="center">
@@ -155,21 +244,64 @@
 </section><section id="haud-on-a-bin-minute-here-joe-have-ye-noticed-somethin-1" class="slide level2">
 <h2>“Haud on a b***in’ minute here, Joe!<br/>Have ye noticed somethin?”</h2>
 <div class="large">
-<p><strong>Q:</strong> So <strong>I</strong> am supposed to do all the hard and tedious metadata work then?</p>
+<p><strong>Q:</strong> So <strong>I, RSE,</strong> am supposed to do all the hard and tedious (metadata) work then?</p>
 <p><strong>A:</strong> Yes. (But we are trying to make it simpler.)</p>
 </div>
-<!--Yea! But that's already what you should be doing according to good scientific principles.
-As RSEs, we cannot pick the carrot and discard the stick, we're also obliged to stick to them,
-we have all the advantages of interesting work with a high degree of freedom on avaerage,
-but we also need to accept the disadvantages that come with it, i.e., academic rigour!
-
-But we promsie to make it simpler.
-Quality is your main concern anyway, right?
-Accessibility as open source is your practice already, right?
-So take citation! -->
+<aside class="notes">
+<h3 id="yea-thats-actually-your-job">- Yea! That’s actually your job!</h3>
+<h3 id="and-its-what-you-should-be-doing-already-good-scientific-practice">- And it’s what you should be doing already (Good Scientific Practice)</h3>
+<h3 id="it-is-a-studenty-place">- It is a studenty place</h3>
+<h3 id="as-rses-we-cannot-pick-the-carrot-and-discard-the-stick">- As RSEs, we cannot pick the carrot and discard the stick</h3>
+<h3 id="were-also-obliged-to-stick-to-gsp">- we’re also obliged to stick to GSP</h3>
+<h3 id="academic-rigour-is-the-price-we-pay-for-the-advantages-interesting-freedom">- Academic rigour is the price we pay for the advantages (interesting, freedom)</h3>
+<h3 id="but-we-promsie-to-make-it-simpler.">- But we promsie to make it simpler.</h3>
+<h3 id="quality-is-your-main-concern-anyway-right">- Quality is your main concern anyway, right?</h3>
+<h3 id="accessibility-via-open-source-is-your-practice-already-right">- Accessibility via Open Source is your practice already, right?</h3>
+<h3 id="then-what-about-citation">- Then what about citation?</h3>
+</aside>
 </section></section>
-<section><section id="case-study-cite-make-citable-todo" class="title-slide slide level1"><h1>Case study: cite &amp; make citable [TODO]</h1></section><section id="asd" class="slide level2">
-<h2>asd</h2>
+<section><section id="citation-metadata-101" class="title-slide slide level1"><h1>Citation metadata 101</h1></section><section id="citation-files" class="slide level2">
+<h2>CITATION files</h2>
+<ul>
+<li>Citation File Format (CFF, <em>YAML</em>) <span class="citation" data-cites="druskat_stephan_2018_1405679">[4]</span>: <a href="https://citation-file-format.github.io/">citation-file-format.github.io</a></li>
+<li>(Alternatively CodeMeta (<em>JSON-LD</em>) <span class="citation" data-cites="jonesCodeMetaExchangeSchema2017a">[5]</span>: <a href="https://codemeta.github.io/">codemeta.github.io</a>)</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml"><code class="sourceCode yaml"><a class="sourceLine" id="cb1-1" title="1"><span class="co"># CITATION.cff</span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="fu">cff-version:</span><span class="at"> </span><span class="fl">1.1.0</span></a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="fu">message:</span><span class="at"> </span><span class="st">&quot;If you use this software, cite it using these metadata.&quot;</span></a>
+<a class="sourceLine" id="cb1-4" title="4"><span class="fu">authors:</span></a>
+<a class="sourceLine" id="cb1-5" title="5">  <span class="kw">-</span> <span class="fu">family-names:</span><span class="at"> </span><span class="st">&quot;Druskat&quot;</span></a>
+<a class="sourceLine" id="cb1-6" title="6">    <span class="fu">given-names:</span><span class="at"> </span><span class="st">&quot;Stephan&quot;</span></a>
+<a class="sourceLine" id="cb1-7" title="7">    <span class="fu">orcid:</span><span class="at"> https://orcid.org/0000-0003-4925-7248</span></a>
+<a class="sourceLine" id="cb1-8" title="8"><span class="fu">title:</span><span class="at"> </span><span class="st">&quot;My Research Software&quot;</span></a>
+<a class="sourceLine" id="cb1-9" title="9"><span class="fu">version:</span><span class="at"> </span><span class="st">&quot;2.0.4&quot;</span></a>
+<a class="sourceLine" id="cb1-10" title="10"><span class="fu">doi:</span><span class="at"> </span><span class="st">&quot;10.5281/zenodo.1234&quot;</span></a>
+<a class="sourceLine" id="cb1-11" title="11"><span class="fu">date-released:</span><span class="at"> 2017-12-18</span></a></code></pre></div>
+</section><section id="manual-creation-curation" class="slide level2">
+<h2>Manual creation &amp; curation</h2>
+<div class="large">
+<ul>
+<li>Copy, paste &amp; adapt the example</li>
+<li>Use a simple webservice: <a href="https://citation-file-format.github.io/cff-initializer-javascript/">citation-file-format.github.io/cff-initializer-javascript/</a></li>
+</ul>
+</div>
+</section><section id="auto-generation" class="slide level2">
+<h2>Auto-generation</h2>
+<ul>
+<li>Let your build (soon for Maven, incl. dependencies) or registry do it</li>
+</ul>
+<div class="center">
+<p><img src="image/ascl.gif" style="height: 380px"></p>
+</div>
+</section><section id="but-how-do-i-get-the-zenodo-doi-into-the-release-citation.cff-file-automagically" class="slide level2">
+<h2>“But how do I get the Zenodo DOI into the release CITATION.cff file automagically?”</h2>
+<div class="large center">
+<p>a.k.a. 🐔🥚</p>
+<p>We’re working on it. With Zenodo 💖!</p>
+</div>
+</section><section id="and-perhaps-one-day" class="slide level2">
+<h2>And perhaps one day …</h2>
+<p><img data-src="image/cite.gif" /></p>
 </section></section>
 <section><section id="conclusion" class="title-slide slide level1"><h1>Conclusion</h1></section><section id="fair-software" class="slide level2" data-transition="slide-in none-out">
 <h2>FAIR Software</h2>
@@ -177,6 +309,38 @@ So take citation! -->
 </section><section id="fair-software-practice-of-fair-play" class="slide level2" data-transition="none-in slide-out">
 <h2>FAIR Software + practice of FAIR PLAY</h2>
 <p><img data-src="image/rse.png" /></p>
+</section><section id="conclusion-1" class="slide level2">
+<h2>Conclusion</h2>
+<div class="fragment">
+<div class="large">
+<ul>
+<li>FAIR does not work fully for software</li>
+</ul>
+</div>
+</div>
+<div class="fragment">
+<div class="large">
+<ul>
+<li>FAIR is an established “brand”</li>
+</ul>
+</div>
+</div>
+<div class="fragment">
+<div class="large">
+<ul>
+<li>Research software can leverage the brand</li>
+</ul>
+</div>
+</div>
+<div class="fragment">
+<div class="large">
+<ul>
+<li>Even if we fail to define FAIR for software,<br />
+FAIR + RSE = FAIR PLAY can achieve for software<br />
+what FAIR has achieved for data</li>
+</ul>
+</div>
+</div>
 </section><section id="thanks" class="slide level2" style="text-align: center;">
 <h2>Thanks!</h2>
 <div class="center">
@@ -192,11 +356,11 @@ Slides: <a href="https://doi.org/10.6084/m9.figshare.10296917">doi:10.6084/m9.fi
 <h2>Image credits</h2>
 <div class="small">
 <ul>
-<li>DFG Kodex cover, assumed copyright by <a href="https://www.dfg.de/en/research_funding/principles_dfg_funding/good_scientific_practice/index.html">Deutsche Forschungsgemeinschaft</a> (under fair use)</li>
-<li>Burnistoun animated GIF from <a href="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/25/10/asset/buzzfeed-prod-fastlane-01/anigif_sub-buzz-28377-1500993996-1_preview.gif?downsize=800:*&amp;output-format=auto&amp;output-quality=auto">BuzzFeed</a>, assumed copyright by BBC (under fair use)</li>
+<li>DFG Kodex cover, assumed © by <a href="https://www.dfg.de/en/research_funding/principles_dfg_funding/good_scientific_practice/index.html">Deutsche Forschungsgemeinschaft</a> (under fair use)</li>
+<li>Burnistoun animated GIF from <a href="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/25/10/asset/buzzfeed-prod-fastlane-01/anigif_sub-buzz-28377-1500993996-1_preview.gif?downsize=800:*&amp;output-format=auto&amp;output-quality=auto">BuzzFeed</a>, assumed © by BBC (under fair use)</li>
 <li>Elsevier logo in the public domain <img src="https://licensebuttons.net/p/80x15.png" style="margin: 0;"></li>
 <li>Public Money Public Code logo by Free Software Foundation Europe <img src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" style="margin: 0;"></li>
-<li>Software Heritage logo by</li>
+<li>Software Heritage courtesy of Software Heritage</li>
 <li>The Open Source Initiative Keyhole Logo by The Open Source Initiative <img src="https://licensebuttons.net/l/by/2.5/80x15.png" style="margin: 0;"></li>
 </ul>
 </div>
@@ -207,14 +371,23 @@ Slides: <a href="https://doi.org/10.6084/m9.figshare.10296917">doi:10.6084/m9.fi
 <li>FAIR PLAIry also by me <img src="https://licensebuttons.net/l/zero/1.0/80x15.png" style="margin: 0;"></li>
 </ul>
 </div>
-</section><section id="references-todo" class="slide level2 unnumbered">
-<h2>References [TODO]</h2>
+</section><section id="references" class="slide level2 unnumbered small">
+<h2>References</h2>
 <div id="refs" class="references" role="doc-bibliography">
-<div id="ref-blog">
-<p>[1] Arfon M. Smith, Daniel S. Katz, Kyle E. Niemeyer, and FORCE11 Software Citation Working Group, “Software citation principles,” <em>PeerJ Computer Science</em>, vol. 2, no. e86, 2016 [Online]. Available: <a href="https://doi.org/10.7717/peerj-cs.86">https://doi.org/10.7717/peerj-cs.86</a>.</p>
+<div id="ref-katzFAIRNotFair2017">
+<p>[1] Daniel S. Katz, “FAIR is not fair enough,” <em>Daniel S. Katz’s blog</em>. Jun-2017 [Online]. Available: <a href="https://web.archive.org/web/20191120175321/https://danielskatzblog.wordpress.com/2017/06/22/fair-is-not-fair-enough/">https://web.archive.org/web/20191120175321/https://danielskatzblog.wordpress.com/2017/06/22/fair-is-not-fair-enough/</a>.</p>
 </div>
-<div id="ref-slides">
-<p>[2] R. Wilson, “Encouraging citation of software – introducing CITATION files.” 2013 [Online]. Available: <a href="https://goo.gl/7gZuSY">https://goo.gl/7gZuSY</a>.</p>
+<div id="ref-daniels.katzFAIRNotFair2018">
+<p>[2] Daniel S. Katz, “FAIR is not Fair Enough, Particularly for Software Citation, Availability, or Quality.” 2018 [Online]. Available: <a href="https://web.archive.org/web/20191120175542/https://www.slideshare.net/danielskatz/fair-is-not-fair-enough-particularly-for-software-citation-availability-or-quality?from_action=save">https://web.archive.org/web/20191120175542/https://www.slideshare.net/danielskatz/fair-is-not-fair-enough-particularly-for-software-citation-availability-or-quality?from_action=save</a>.</p>
+</div>
+<div id="ref-lamprechtFAIRPrinciplesResearch2019">
+<p>[3] Anna-Lena Lamprecht, Leyla Garcia, Mateusz Kuzak, Carlos Martinez, Ricardo Arcila, Eva Martin Del Pico, Victoria Dominguez Del Angel, Stephanie van de Sandt, Jon Ison, Paula Andrea Martinez, Peter McQuilton, Alfonso Valencia, Jennifer Harrow, Fotis Psomopoulos, Josep Ll Gelpi, Neil Chue Hong, Carole Goble, and Salvador Capella-Gutierrez, “Towards FAIR principles for research software,” <em>Data Science</em>, vol. Preprint, no. Preprint, pp. 1–23, Jan. 2019 [Online]. Available: <a href="https://doi.org/10.3233/DS-190026">https://doi.org/10.3233/DS-190026</a>.</p>
+</div>
+<div id="ref-druskat_stephan_2018_1405679">
+<p>[4] Stephan Druskat, Jurriaan H. Spaaks, Neil Chue Hong, Robert Haines, and James Baker, “Citation File Format (CFF),” Aug. 2018 [Online]. Available: <a href="https://doi.org/10.5281/zenodo.1003149">https://doi.org/10.5281/zenodo.1003149</a>.</p>
+</div>
+<div id="ref-jonesCodeMetaExchangeSchema2017a">
+<p>[5] Matthew B. Jones, Carl Boettiger, Abby Cabunoc Mayes, Arfon Smith, Peter Slaughter, Kyle Niemeyer, Yolanda Gil, Martin Fenner, Krzysztof Nowak, Mark Hahnel, Luke Coy, Alice Allen, Mercè Crosas, Ashley Sands, Neil Chue Hong, Patricia Cruse, Dan Katz, and Carole Goble, <em>CodeMeta: An exchange schema for software metadata. Version 2.0</em>. 2017 [Online]. Available: <a href="https://doi.org/10.5063/schema/codemeta-2.0">https://doi.org/10.5063/schema/codemeta-2.0</a>.</p>
 </div>
 </div>
 </section></section>

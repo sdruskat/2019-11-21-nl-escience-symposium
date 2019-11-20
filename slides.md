@@ -3,7 +3,7 @@ title:  '**Dare to be mair than just FAIR!**'
 realsubtitle: 'FAIR PLAY to research software,<br/>courtesy of RSEs'
 subtitle: 'FAIR Software @ National eScience Symposium 2019,<br/>Johan Cruijff ArenA, Amsterdam, 2019-11-21'
 author: 
-    - '<em>Stephan Druskat</em>  |  <img src="image/orcid.png" style="margin: 0;"> <a href="https://orcid.org/0000-0003-4925-7248">https://orcid.org/0000-0003-4925-7248</a><br/><span class="small">(German Aerospace Center (DLR), Friedrich Schiller University Jena,<br/>Humboldt-Universität zu Berlin, SSI Special Collaborator)<br/></span><img src="image/cc-by.png"><br/><span class="small">menti.com 71 20 99​</span>'
+    - '<em>Stephan Druskat</em>  |  <img src="image/orcid.png" style="margin: 0;"> <a href="https://orcid.org/0000-0003-4925-7248">https://orcid.org/0000-0003-4925-7248</a><br/><span class="small">(German Aerospace Center (DLR), Friedrich Schiller University Jena,<br/>Humboldt-Universität zu Berlin, SSI Special Collaborator, Board member de-RSE e.V.)<br/></span><img src="image/cc-by.png"><br/><span class="small">menti.com 71 20 99​</span>'
 theme: 'humboldt'
 center: 'false'
 slideNumber: 'true'
@@ -63,9 +63,9 @@ aspectratio: 169
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
 
-- We, the research software community, can make use of the brand, e.g.,
-    - Policy changes create leverage (FAI**RSE** anyone?)
-    - Visibility for software sustainability concerns
+- We, the research software community, can make use of the brand, e.g.:
+    - Policy changes create leverage (FAI**RSE**?)
+    - May increase visibility for software sustainability concerns
 
 :::
 ::: {.column width="40%"}
@@ -77,13 +77,14 @@ aspectratio: 169
 
 # Is FAIR enough?
 
-## Probably not! [@blog], [@slides], [@ds]
+## Probably not! [@katzFAIRNotFair2017], [@daniels.katzFAIRNotFair2018], [@lamprechtFAIRPrinciplesResearch2019]
 
 . . .
 
 ::: {.center .large}
+<br/>
 
-FAIR != OPEN [TODO: From Dan's blog]
+FAIR != OPEN
 
 :::
 
@@ -91,7 +92,7 @@ FAIR != OPEN [TODO: From Dan's blog]
 
 ::: {.center .large}
 
-FAIR != CREDIT [There's no fair trade in FAIR, explain]
+FAIR != CREDIT
 
 :::
 
@@ -99,13 +100,17 @@ FAIR != CREDIT [There's no fair trade in FAIR, explain]
 
 ::: {.center .large}
 
-FAIR != GOOD [Quality TODO, concerns the functionality fo software, not the form (covered by FAIR)]
+FAIR != GOOD
 
 :::
 
-## Perhaps we don't need "FAIR" for software, but rather rules of FAIR PLAY!
+::: notes
+FAIR != OPEN [TODO: From Dan's blog]
+FAIR != CREDIT [There's no fair trade in FAIR, explain]
+FAIR != GOOD [Quality TODO, concerns the functionality fo software, not the form (covered by FAIR)]
+:::
 
-[TODO: Instead of trying to squeeze software into FAIR, we should extend FAIR to cover software]
+## Perhaps we don't need FAIR Software, but rather rules of FAIR PLAY for software!
 
 ::: {.large .center}
 
@@ -119,11 +124,15 @@ FAIR PLAY?<br/><span style="color:lightgray; font-size: 70%;">(I'm sure there's 
 
 FAIR PLAY Software is ...
 
-**F**indable, **A**ccessible, **I**nteroperable, **R**eusable,<span class="fragment"><br/>and **P**er default open source,</span> <span class="fragment">therefore **L**iterally accessible,</span> <span class="fragment">**A**ttributing contributions for credit,</span> <span class="fragment">and of high qualit**Y**!</span>
+**F**indable, **A**ccessible, **I**nteroperable, **R**eusable,<span class="fragment"><br/>and **P**er default open source,</span> <span class="fragment">therefore ***L**iterally* accessible,</span> <span class="fragment">**A**ttributing contributions for credit,</span> <span class="fragment">and of adequate qualit**Y**!</span>
 
 :::
 
-# FAIR PLAY == RSEng! [TODO]
+::: notes
+[TODO: Instead of trying to squeeze software into FAIR, we should extend FAIR to cover software]
+:::
+
+# FAIR PLAY == FAIR + RSEng
 
 ## RSEs be FAIR to the world
 
@@ -138,18 +147,39 @@ FAIR PLAY Software is ...
 
 ## RSEs be FAIR to others
 
-- Try to ensure that your software is of "high quality", so that other researchers can trust it.
-- How to judge software quality (internal metrics, peer review, usage)
-- Best practices: tests, docs, code review, etc.
+- Do your best to ensure that your software is of "adequate quality", so that downstream users can:
+    1. understand it,
+    1. use it,
+    1. trust it.
+- How do we measure software quality?  
+(Internal) metrics? Peer review? Usage?
+- Best practices: VCS, CI, tests, documentation, code review, etc.
+
+::: notes
+### - "Adequate": costly software should be of high quality, modularized, etc.
+### - Scripts may not need docs, but need to be citable when used in research (reproducibility)
+### - Software quality measurement should be answered in Software Engineering
+:::
 
 ## RSEs be FAIR to themselves
 
-- Make your software citable (A in play)
+::: {.large}
+- Make your software citable ("A" in "PLAY")
+- Provide citation metadata
+:::
 
-## Okay, also be FAIR to others again
+## Okay, also be FAIR to others (again)
 
+::: {.large}
 - Cite software that you use
-- ... in your papers and your software
+- Do so both in your papers and in your software
+:::
+
+::: notes
+### - Cite software from software via metadata
+
+## Burnistoun?
+:::
 
 ## "Haud on a b\*\*\*in' minute here, Joe!<br/>Have ye noticed somethin?"
 
@@ -163,25 +193,73 @@ FAIR PLAY Software is ...
 
 ::: {.large}
 
-**Q:** So **I** am supposed to do all the hard and tedious metadata work then?
+**Q:** So **I, RSE,** am supposed to do all the hard and tedious (metadata) work then?
 
 **A:** Yes. (But we are trying to make it simpler.)
 
 :::
 
-<!--Yea! But that's already what you should be doing according to good scientific principles.
-As RSEs, we cannot pick the carrot and discard the stick, we're also obliged to stick to them,
-we have all the advantages of interesting work with a high degree of freedom on avaerage,
-but we also need to accept the disadvantages that come with it, i.e., academic rigour!
+::: notes
+### - Yea! That's actually your job!
+### - And it's what you should be doing already (Good Scientific Practice)
+### - It is a studenty place
+### - As RSEs, we cannot pick the carrot and discard the stick
+### - we're also obliged to stick to GSP
+### - Academic rigour is the price we pay for the advantages (interesting, freedom)
 
-But we promsie to make it simpler.
-Quality is your main concern anyway, right?
-Accessibility as open source is your practice already, right?
-So take citation! -->
+### - But we promsie to make it simpler.
+### - Quality is your main concern anyway, right?
+### - Accessibility via Open Source is your practice already, right?
+### - Then what about citation?
+:::
 
-# Case study: cite & make citable [TODO]
+# Citation metadata 101
 
-## asd
+## CITATION files
+
+- Citation File Format (CFF, *YAML*) [@druskat_stephan_2018_1405679]: [citation-file-format.github.io](https://citation-file-format.github.io/)
+- (Alternatively CodeMeta (*JSON-LD*) [@jonesCodeMetaExchangeSchema2017a]: [codemeta.github.io](https://codemeta.github.io/))
+
+```yaml
+# CITATION.cff
+cff-version: 1.1.0
+message: "If you use this software, cite it using these metadata."
+authors:
+  - family-names: "Druskat"
+    given-names: "Stephan"
+    orcid: https://orcid.org/0000-0003-4925-7248
+title: "My Research Software"
+version: "2.0.4"
+doi: "10.5281/zenodo.1234"
+date-released: 2017-12-18
+```
+
+## Manual creation & curation
+
+::: {.large}
+- Copy, paste & adapt the example
+- Use a simple webservice: [citation-file-format.github.io/cff-initializer-javascript/](https://citation-file-format.github.io/cff-initializer-javascript/)
+:::
+
+## Auto-generation
+
+- Let your build (soon for Maven, incl. dependencies) or registry do it
+
+::: {.center}
+<img src="image/ascl.gif" style="height: 380px">
+:::
+
+## "But how do I get the Zenodo DOI into the release CITATION.cff file automagically?"
+
+::: {.large .center}
+a.k.a. 🐔🥚
+
+We're working on it. With Zenodo 💖!
+:::
+
+## And perhaps one day ...
+
+![](image/cite.gif)
 
 # Conclusion
 
@@ -192,6 +270,34 @@ So take citation! -->
 ## FAIR Software + practice of FAIR PLAY {data-transition="none-in slide-out"}
 
 ![](image/rse.png)
+
+## Conclusion
+
+. . .
+
+::: {.large}
+- FAIR does not work fully for software
+:::
+
+. . . 
+
+::: {.large}
+- FAIR is an established "brand"
+:::
+
+. . . 
+
+::: {.large}
+- Research software can leverage the brand
+:::
+
+. . . 
+
+::: {.large}
+- Even if we fail to define FAIR for software,  
+FAIR + RSE = FAIR PLAY can achieve for software  
+what FAIR has achieved for data
+:::
 
 ## Thanks! {style="text-align: center;"}
 
@@ -213,11 +319,11 @@ Slides: [doi:10.6084/m9.figshare.10296917](https://doi.org/10.6084/m9.figshare.1
 
 ::: {.small}
 
-- DFG Kodex cover, assumed copyright by [Deutsche Forschungsgemeinschaft](https://www.dfg.de/en/research_funding/principles_dfg_funding/good_scientific_practice/index.html) (under fair use)
-- Burnistoun animated GIF from [BuzzFeed](https://img.buzzfeed.com/buzzfeed-static/static/2017-07/25/10/asset/buzzfeed-prod-fastlane-01/anigif_sub-buzz-28377-1500993996-1_preview.gif?downsize=800:*&output-format=auto&output-quality=auto), assumed copyright by BBC (under fair use)
+- DFG Kodex cover, assumed © by [Deutsche Forschungsgemeinschaft](https://www.dfg.de/en/research_funding/principles_dfg_funding/good_scientific_practice/index.html) (under fair use)
+- Burnistoun animated GIF from [BuzzFeed](https://img.buzzfeed.com/buzzfeed-static/static/2017-07/25/10/asset/buzzfeed-prod-fastlane-01/anigif_sub-buzz-28377-1500993996-1_preview.gif?downsize=800:*&output-format=auto&output-quality=auto), assumed © by BBC (under fair use)
 - Elsevier logo in the public domain <img src="https://licensebuttons.net/p/80x15.png" style="margin: 0;">
 - Public Money Public Code logo by Free Software Foundation Europe <img src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" style="margin: 0;">
-- Software Heritage logo by
+- Software Heritage courtesy of Software Heritage
 - The Open Source Initiative Keyhole Logo by The Open Source Initiative <img src="https://licensebuttons.net/l/by/2.5/80x15.png" style="margin: 0;">
 
 :::
@@ -231,4 +337,4 @@ Slides: [doi:10.6084/m9.figshare.10296917](https://doi.org/10.6084/m9.figshare.1
 
 :::
 
-## References [TODO]
+## References {.small}
