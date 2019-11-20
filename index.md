@@ -294,7 +294,7 @@ We're working on it. With Zenodo 💖!
 . . . 
 
 ::: {.large}
-- Even if we fail to define FAIR for software,  
+- Even if we fail to define FAIR Software,  
 FAIR + RSE = FAIR PLAY can achieve for software  
 what FAIR has achieved for data
 :::
