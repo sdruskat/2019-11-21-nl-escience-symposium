@@ -237,8 +237,9 @@ date-released: 2017-12-18
 ## Manual creation & curation
 
 ::: {.large}
-- Copy, paste & adapt the example
-- Use a simple webservice: [citation-file-format.github.io/cff-initializer-javascript/](https://citation-file-format.github.io/cff-initializer-javascript/)
+- Copy, paste & adapt the example, *or*
+- use a simple webservice: [citation-file-format.github.io/cff-initializer-javascript/](https://citation-file-format.github.io/cff-initializer-javascript/).
+- Put `CITATION.cff` in the root of your source code repository.
 :::
 
 ## Auto-generation
