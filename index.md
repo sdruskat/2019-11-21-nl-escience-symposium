@@ -64,7 +64,7 @@ aspectratio: 169
 ::: {.column width="55%"}
 
 - We, the research software community, can make use of the brand, e.g.:
-    - Policy changes create leverage (FAI**RSE**?)
+    - Policy changes create leverage (to campaign for RSE, or FAI**RSE**)
     - May increase visibility for software sustainability concerns
 
 :::
@@ -124,7 +124,7 @@ FAIR PLAY?<br/><span style="color:lightgray; font-size: 70%;">(I'm sure there's 
 
 FAIR PLAY Software is ...
 
-**F**indable, **A**ccessible, **I**nteroperable, **R**eusable,<span class="fragment"><br/>and **P**er default open source,</span> <span class="fragment">therefore ***L**iterally* accessible,</span> <span class="fragment">**A**ttributing contributions for credit,</span> <span class="fragment">and of adequate qualit**Y**!</span>
+**F**indable, **A**ccessible, **I**nteroperable, **R**eusable,<span class="fragment"><br/>and **P**er default open source,</span> <span class="fragment">**L**icensed,</span> <span class="fragment">**A**ttributing contributions to it (for credit),</span> <span class="fragment">and of adequate qualit**Y**!</span>
 
 :::
 
@@ -138,7 +138,7 @@ FAIR PLAY Software is ...
 
 - Publicly funded research products (software) [belong to the public](https://publiccode.eu/)
 - Use (permissive) open source licensing
-- Publish your software proactively in a registry which provides a PID
+- Publish your software proactively in a registry, get a PID (DOI)
 - Archive your software sustainably ([Software Heritage](https://www.softwareheritage.org/))
 
 ::: {.center}
@@ -151,6 +151,7 @@ FAIR PLAY Software is ...
     1. understand it,
     1. use it,
     1. trust it.
+    1. change it.
 - How do we measure software quality?  
 (Internal) metrics? Peer review? Usage?
 - Best practices: VCS, CI, tests, documentation, code review, etc.
@@ -247,7 +248,7 @@ date-released: 2017-12-18
 - Let your build (soon for Maven, incl. dependencies) or registry do it
 
 ::: {.center}
-<img src="image/ascl.gif" style="height: 380px">
+<img src="image/ascl.gif" style="height: 360px">
 :::
 
 ## "But how do I get the Zenodo DOI into the release CITATION.cff file automagically?"
@@ -324,7 +325,7 @@ Slides: [doi:10.6084/m9.figshare.10565717](https://doi.org/10.6084/m9.figshare.1
 - Burnistoun animated GIF from [BuzzFeed](https://img.buzzfeed.com/buzzfeed-static/static/2017-07/25/10/asset/buzzfeed-prod-fastlane-01/anigif_sub-buzz-28377-1500993996-1_preview.gif?downsize=800:*&output-format=auto&output-quality=auto), assumed © by BBC (under fair use)
 - Elsevier logo in the public domain <img src="https://licensebuttons.net/p/80x15.png" style="margin: 0;">
 - Public Money Public Code logo by Free Software Foundation Europe <img src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" style="margin: 0;">
-- Software Heritage courtesy of Software Heritage
+- Software Heritage logo courtesy of Software Heritage
 - The Open Source Initiative Keyhole Logo by The Open Source Initiative <img src="https://licensebuttons.net/l/by/2.5/80x15.png" style="margin: 0;">
 
 :::
