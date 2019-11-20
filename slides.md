@@ -271,7 +271,7 @@ We're working on it. With Zenodo 💖!
 
 ![](image/rse.png)
 
-## Conclusion
+## Conclusion proper
 
 . . .
 
