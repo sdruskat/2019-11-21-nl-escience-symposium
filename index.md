@@ -138,7 +138,7 @@ FAIR PLAY Software is ...
 
 - Publicly funded research products (software) [belong to the public](https://publiccode.eu/)
 - Use (permissive) open source licensing
-- Publish your software proactively
+- Publish your software proactively in a registry which provides a PID
 - Archive your software sustainably ([Software Heritage](https://www.softwareheritage.org/))
 
 ::: {.center}
