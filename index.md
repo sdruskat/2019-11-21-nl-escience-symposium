@@ -41,6 +41,11 @@ aspectratio: 169
 
 :::
 
+::: notes
+### - "Science"/"Research" not "Open Science"
+### - Science that's not open is not traceable, and therefore not knowledge
+:::
+
 ## FAIR, the brand
 
 ::: {.large}
@@ -118,12 +123,14 @@ FAIR != GOOD
 
 ::: notes
 ### - Research - including ALs - has shown that its hard to just re-use FAIR for software, mainly for the following reasons
-### - The FAIR PRINCIPLES don't require research artifacts to be openly available
+### - The FAIR PRINCIPLES don't require research artifacts to be OPENLY available
 ### - To not share is not FAIR, and research should be open to benefit the research community and the general public
-### - FAIR doesn't cater for credit
+### - FAIR doesn't cater for CREDIT
 ### - But credit still is the main currency in research
-FAIR != CREDIT [There's no fair trade in FAIR, explain]
-FAIR != GOOD [Quality TODO, concerns the functionality fo software, not the form (covered by FAIR)]
+### - Credit for RSEs would enable better research through better software
+### - QUALITY concerns the usability and functionality of software,
+### - FAIR covers the form of software (as data),
+### - but RE-USABILITY heavily relies on adequate software quality
 :::
 
 ## Perhaps we don't need FAIR Software, but rather rules of FAIR PLAY for software!
@@ -145,7 +152,9 @@ FAIR PLAY Software is ...
 :::
 
 ::: notes
-[TODO: Instead of trying to squeeze software into FAIR, we should extend FAIR to cover software]
+### - Here's an idea: Perhaps, instead of trying to squeeze software into FAIR,
+### - we should extend the FAIR brand to cater for open, citable, quality software.
+### - "Licensed" because it's a requirement for re-use
 :::
 
 # FAIR PLAY == FAIR + RSEng
