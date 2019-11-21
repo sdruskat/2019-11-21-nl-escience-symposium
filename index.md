@@ -58,6 +58,11 @@ aspectratio: 169
 
 :::
 
+::: notes
+### - PIs, institutional management and funders are recognizing FAIR as something desirable
+### - Therefore they increasingly ask you to make your research artifacts FAIR
+:::
+
 ## FAIR, the brand
 
 :::::::::::::: {.columns}
@@ -69,6 +74,13 @@ aspectratio: 169
 
 :::
 ::: {.column width="40%"}
+
+::: notes
+### - FAIR has found its way into Good Scientific Practice Guidelines
+### - If FAIR becomes a part of Good Scientific Practice, we can leverage the brand
+### - FAIR is expensive, it costs resources
+### - So under the FAIR flag, we can better campaign and lobby for the installation of RSEs across the system
+:::
 
 <img src="image/kodex.png" style="width: 40%;">
 
@@ -105,7 +117,11 @@ FAIR != GOOD
 :::
 
 ::: notes
-FAIR != OPEN [TODO: From Dan's blog]
+### - Research - including ALs - has shown that its hard to just re-use FAIR for software, mainly for the following reasons
+### - The FAIR PRINCIPLES don't require research artifacts to be openly available
+### - To not share is not FAIR, and research should be open to benefit the research community and the general public
+### - FAIR doesn't cater for credit
+### - But credit still is the main currency in research
 FAIR != CREDIT [There's no fair trade in FAIR, explain]
 FAIR != GOOD [Quality TODO, concerns the functionality fo software, not the form (covered by FAIR)]
 :::
@@ -299,6 +315,10 @@ We're working on it. With Zenodo 💖!
 - Even if we fail to define FAIR Software,  
 FAIR + RSE = FAIR PLAY can achieve for software  
 what FAIR has achieved for data
+:::
+
+::: notes
+### - Nevermind the branding, it's the practice under the hood that matters
 :::
 
 ## Thanks! {style="text-align: center;"}
