@@ -170,6 +170,10 @@ FAIR PLAY Software is ...
 <img src="image/pmpc.jpg" style="height:200px;"> <img src="image/osi.png" style="height:200px;"> <img src="image/swh.png" style="height:200px;">
 :::
 
+::: notes
+## RSE?
+:::
+
 ## RSEs be FAIR to others
 
 - Do your best to ensure that your software is of "adequate quality", so that downstream users can:
@@ -194,6 +198,10 @@ FAIR PLAY Software is ...
 - Provide citation metadata
 :::
 
+::: notes
+### - You want to be credited for your software world, because otherwise you'll have no career
+### - And if you don't have a career, you won't be around to create better software for better research
+
 ## Okay, also be FAIR to others (again)
 
 ::: {.large}
@@ -203,8 +211,12 @@ FAIR PLAY Software is ...
 
 ::: notes
 ### - Cite software from software via metadata
+### - Cite your dependencies
+### - If we want software to be treated as a valid research product, we should treat it the same as papers
+### - This includes providing a reference list
+### - citing other research that your research builds on
 
-## Burnistoun?
+### - Burnistoun?
 :::
 
 ## "Haud on a b\*\*\*in' minute here, Joe!<br/>Have ye noticed somethin?"
