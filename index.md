@@ -201,6 +201,7 @@ FAIR PLAY Software is ...
 ::: notes
 ### - You want to be credited for your software world, because otherwise you'll have no career
 ### - And if you don't have a career, you won't be around to create better software for better research
+:::
 
 ## Okay, also be FAIR to others (again)
 
